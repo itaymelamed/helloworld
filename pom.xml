@@ -21,7 +21,13 @@
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
-
+  <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.7</version>
+        </dependency>
+  </dependencies>
   <build>
     <finalName>test</finalName>
     <plugins>
