@@ -26,6 +26,7 @@
     <finalName>test</finalName>
     <plugins>
       <plugin>
+        <version>${maven.compiler.plugin.version}</version>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
       </plugin>
